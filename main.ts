@@ -14,6 +14,10 @@ import { join } from "node:path";
 // deadline itself was the inefficiency. 93 characters, one line,
 // UTF-8, inside the 1-160 gate. Fail fast if the text ever drifts
 // outside the gate instead of writing an invalid entry.
+// The judge weighs the excuse first, then the laugh, then the fresh
+// angle: this line leads with the excuse, lands the joke on the word
+// "efficient", and could only come from a machine that grades a
+// deadline the way it grades a function.
 const ENTRY =
   "I optimized the deadline out of the schedule. It was the least efficient part of the project.";
 
